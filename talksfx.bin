@@ -1,0 +1,10 @@
+                    SYSHALT LABORATORIES
+                SDK FOR PLOTTWIST  III (3)
+            PSEUDOCODE FOR TALKING SFX DIALOGUE
+
+while "talking=1,dialogue.Vis=1" with $v0 as incr:
+    letrasPercorridas = len(i) - $v0
+    if letrasPercorridas %% 2 == 0:
+        SEH.playSound("/audio/talk/1.mp3")
+    else:
+        SEH.playSound("/audio/talk/2.mp3")
